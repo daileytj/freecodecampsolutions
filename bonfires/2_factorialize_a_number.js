@@ -47,7 +47,7 @@ factorialize(5);
     var myNum = 1;
     for (i=1; i<=num; i++){
       myNum = myNum * i;
-    };
+    }
     return myNum;
   }
 
@@ -95,7 +95,7 @@ function factorialize(num) {
   var myNum = 1;
   for (var i=1; i<=num; i++){
     myNum *= i;
-  };
+  }
   console.log(myNum);
   return myNum;
 }
@@ -115,7 +115,7 @@ const factorializeES6 = num => {
   let myNum = 1;
   for (let i=1; i<=num; i++){
     myNum *= i;
-  };
+  }
   console.log(myNum);
   return myNum;
 }
