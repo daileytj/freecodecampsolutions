@@ -86,7 +86,7 @@ function titleCase(str) {
 }
 
 
-ES6 Implementation Written For Testing Purposes
+// ES6 Implementation Written For Testing Purposes
 const titleCaseES6 = str => {
   str = str.toLowerCase().split(' ').map(word => {
     return word.replace(word[0], word[0].toUpperCase());
